@@ -1,14 +1,14 @@
 {
-  "name": "image-frontmatter-generator",
+  "name": "image-meta",
   "version": "0.0.1",
   "description": "Generate frontmatter for markdown from JSON",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gregrafferty/image-frontmatter-generator.git"
+    "url": "git+https://github.com/gregrafferty/image-meta.git"
   },
   "keywords": [
     "frontmatter",
@@ -17,7 +17,15 @@
   "author": "Greg Rafferty (http://gregrafferty.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gregrafferty/image-frontmatter-generator/issues"
+    "url": "https://github.com/gregrafferty/image-meta/issues"
   },
-  "homepage": "https://github.com/gregrafferty/image-frontmatter-generator#readme"
+  "homepage": "https://github.com/gregrafferty/image-meta#readme",
+  "dependencies": {
+    "exif-parser": "^0.1.9",
+    "node-iptc": "^1.0.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
 }

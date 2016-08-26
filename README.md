@@ -1,2 +1,2 @@
-# Image Frontmatter Generator
-Generate frontmatter for markdown from JSON
+# Image Meta
+Get EXIF and IPTC data from images
